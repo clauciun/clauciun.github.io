@@ -1,1 +1,1 @@
-(function(){var n=2;Promise.all(Array.from({length:n},function(_,i){return fetch("/_next/static/chunks/16v7k83s8hrtj.css".concat(".p")+i).then(function(r){return r.text();});})).then(function(p){var x=document.createElement("style");x.textContent=p.join("");document.head.appendChild(x);});})();
+(function(){var n=8;Promise.all(Array.from({length:n},function(_,i){return fetch("/_next/static/chunks/16v7k83s8hrtj.css.p"+i).then(function(r){return r.text();});})).then(function(p){var x=document.createElement("style");x.textContent=p.join("");document.head.appendChild(x);});})();
