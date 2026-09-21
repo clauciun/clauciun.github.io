@@ -1,1 +1,1 @@
-(function(){var n=8,s=document.currentScript,b=s.src;Promise.all(Array.from({length:n},function(_,i){return fetch(b+".p"+i).then(function(r){return r.text();});})).then(function(p){var x=document.createElement("script");x.textContent=p.join("");s.parentNode.appendChild(x);});})();
+(function(){var n=2,s=document.currentScript,b=s.src;Promise.all(Array.from({length:n},function(_,i){return fetch(b+".p"+i).then(function(r){return r.text();});})).then(function(p){var x=document.createElement("script");x.textContent=p.join("");s.parentNode.appendChild(x);});})();
