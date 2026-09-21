@@ -1,0 +1,1 @@
+(function(){var n=9;Promise.all(Array.from({length:n},function(_,i){return fetch("/_next/static/chunks/40ag9d0suszeu.css.p"+i).then(function(r){return r.text();});})).then(function(p){var x=document.createElement("style");x.textContent=p.join("");document.head.appendChild(x);});})();
